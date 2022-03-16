@@ -1,0 +1,112 @@
+body{
+    background: url('../public/assets/abstract-futuristic-background-with-3d-design.jpg');
+    background-size: cover;
+}
+
+.container {
+
+    margin: auto;
+    max-width: 90vw;
+}
+
+.done{
+    text-decoration: line-through;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.item {
+    font-size: 20px;
+}
+
+.card{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 2px 7px 1px rgba(0, 0, 0, 0.253);
+    padding: 15px;
+    margin-top: 15px;
+    background-color: white;
+}
+
+.header{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+    font-size: 3vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.addButton {
+    width: 50px;
+    height: 50px;
+    font-size: 20px;
+    border: none;
+    background-color: rgb(65, 172, 172);
+    color: white;
+    border-radius: 100%;
+}
+
+.addButton:hover{
+    background-color: rgb(142, 231, 231);
+}
+
+.modal {
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.253);
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+form input {
+    padding: 5px;
+    font-size: 3vh;
+    border-radius: 10px;
+}
+
+form button {
+    font-size: 3vh;
+    margin-left: 10px;
+    background-color: rgb(65, 172, 172);;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.hide{
+    display: none;
+}
+
+.doneBtn {
+    transform: scale(0.8);
+    background-color: white;
+    border: none;
+}
+
+.doneBtn:hover{
+    cursor: pointer;
+}
+
+.deleteBtn:hover{
+    cursor: pointer;
+}
+
+
+.deleteBtn {
+    transform: scale(0.8);
+    background-color: white;
+    border: none;
+}
+
