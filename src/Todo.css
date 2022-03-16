@@ -1,6 +1,7 @@
 body{
     background: url('../public/assets/abstract-futuristic-background-with-3d-design.jpg');
     background-size: cover;
+    background-repeat: no-repeat;
 }
 
 .container {
